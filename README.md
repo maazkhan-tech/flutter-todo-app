@@ -1,24 +1,24 @@
-# ✅ Flutter Todo App
+# Flutter Todo App
 
 A full-featured Todo application built with Flutter, using **Riverpod** for state management, **SQLite** for local persistence, and **GoRouter** for navigation. Supports task categories, date/time scheduling, completion tracking, and a polished themed UI.
 
 ---
 
-## ✨ Features
+## Features
 
-- ➕ **Create tasks** with title, notes, category, date & time
-- ✅ **Mark tasks** as complete / incomplete
-- 🗑️ **Delete tasks** with swipe or button
-- 📅 **Date-based filtering** — tap any date to view its tasks
-- 🏷️ **9 task categories** — Work, Personal, Health, Travel, Shopping, Education, Social, Home, Others
-- 💾 **SQLite local storage** — data persists across sessions
-- 🎨 **Themed UI** — Indigo color scheme with Google Fonts (Dekko)
-- 🔀 **GoRouter navigation** with clean route management
-- ♻️ **Riverpod state management** with `ProviderScope`
+-  **Create tasks** with title, notes, category, date & time
+-  **Mark tasks** as complete / incomplete
+-  **Delete tasks** with swipe or button
+-  **Date-based filtering** — tap any date to view its tasks
+-  **9 task categories** — Work, Personal, Health, Travel, Shopping, Education, Social, Home, Others
+-  **SQLite local storage** — data persists across sessions
+-  **Themed UI** — Indigo color scheme with Google Fonts (Dekko)
+-  **GoRouter navigation** with clean route management
+-  **Riverpod state management** with `ProviderScope`
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Technology | Usage |
 |---|---|
@@ -36,7 +36,7 @@ A full-featured Todo application built with Flutter, using **Riverpod** for stat
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 lib/
@@ -86,7 +86,7 @@ lib/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -114,7 +114,7 @@ lib/
 
 ---
 
-## 📦 Key Dependencies
+## Key Dependencies
 
 ```yaml
 dependencies:
@@ -132,7 +132,7 @@ dependencies:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 This app follows a **layered architecture** pattern:
 
@@ -153,7 +153,7 @@ Datasource (SQLite via sqflite)
 
 ---
 
-## 🗃️ Database Schema
+## Database Schema
 
 ```sql
 CREATE TABLE tasks (
@@ -169,7 +169,7 @@ CREATE TABLE tasks (
 
 ---
 
-## 🏷️ Task Categories
+## Task Categories
 
 | Category | Icon | Color |
 |---|---|---|
@@ -185,7 +185,7 @@ CREATE TABLE tasks (
 
 ---
 
-## 📖 What I Learned
+## What I Learned
 
 - Riverpod state management with `StateNotifier` and `ProviderScope`
 - SQLite database integration using `sqflite` with singleton pattern
@@ -197,20 +197,20 @@ CREATE TABLE tasks (
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to open an [issue](https://github.com/maazkhan-tech/flutter-todo-app/issues) or submit a pull request.
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Your Name**
 - GitHub: [@maazkhan-tech](https://github.com/maazkhan-tech)
